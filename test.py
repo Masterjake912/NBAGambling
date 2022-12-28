@@ -5,7 +5,7 @@ from nba_api.stats.static import teams
 player_dict = players.get_players()
 
 # Use ternary operator or write function
-# Names are case sensitive
+# Names are case-sensitive
 lebron = [player for player in player_dict if player['full_name'] == 'Lebron James'][0]
 lebron_id = lebron['id']
 
